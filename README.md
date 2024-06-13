@@ -1,9 +1,66 @@
-# Vue 3 + TypeScript + Vite
+Welcome to the Wonderkind Dashboard Project!
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Follow these steps to explore and run the project:
+Step 1: Clone the Repository
 
-## Recommended Setup
+Download the project to your computer:
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+bash
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+git clone https://github.com/awmirrzza/DashboardforWonderkind.git
+
+Step 2: Open the Project
+
+Go to the project folder:
+
+bash
+
+cd DashboardforWonderkind
+
+Step 3: Install Dependencies
+
+Make sure you have Node.js installed. Then, install the required packages:
+
+bash
+
+npm install
+
+Step 4: Run the Project
+
+Start the project locally:
+
+bash
+
+npm run dev
+
+Open your browser and go to http://localhost:3000 to see the app.
+Step 5: Explore the Code
+
+Here's a quick overview of the main folders:
+
+    src/: Contains all the code.
+        components/: Reusable parts of the app.
+        pages/: Different pages of the app.
+        assets/: Images and styles.
+        App.tsx: Main app file.
+        index.tsx: Entry point of the app.
+
+    public/: Contains public files.
+        index.html: Main HTML file.
+
+Step 6: Make Changes
+
+Feel free to edit the code. Add new components in src/components/, create new pages in src/pages/, and update styles in src/assets/.
+Step 7: Save and Share Changes
+
+After making changes, save and upload them:
+
+bash
+
+git add .
+git commit -m "Describe your changes"
+git push
+
+Need Help?
+
+If you have questions, just ask!
