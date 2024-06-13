@@ -18,3 +18,18 @@ Prerequisites
 
     Node.js and npm
     Vue CLI
+
+Installation
+
+    Clone the repository:
+    git clone https://github.com/your-repo/campaign-dashboard.git
+    cd campaign-dashboard
+
+    Install dependencies:
+    npm install
+
+    Running the Application
+
+    Start the development server:
+    npm run serve
+
