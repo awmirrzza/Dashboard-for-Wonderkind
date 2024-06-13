@@ -14,9 +14,7 @@ Project Structure
     store/index.ts: Vuex store setup.
     Ca
 
-Getting Started
-    Prerequisites:
-
+Getting Started:
     Node.js and npm
     Vue CLI
 
