@@ -15,7 +15,7 @@ Project Structure
     Ca
 
 Getting Started
-Prerequisites
+    Prerequisites:
 
     Node.js and npm
     Vue CLI
