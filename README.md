@@ -29,7 +29,8 @@ Installation:
     
        3-Running the Application:
         
-             1- Start the development server:
+             1- Start the development server:(make sure Vite is installed)
+            npm install --save-dev vite 
             npm run serve
         
             2-Open your browser and go to http://localhost:8080.
