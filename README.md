@@ -12,6 +12,7 @@ Project Structure
     components/CampaignSelect.vue: Dropdown component to select a campaign.
     components/MetricsDisplay.vue: Displays metrics for the selected campaign.
     store/index.ts: Vuex store setup.
+    Ca
 
 Getting Started
 Prerequisites
@@ -19,17 +20,19 @@ Prerequisites
     Node.js and npm
     Vue CLI
 
-Installation
+Installation:
 
-    Clone the repository:
+    1- Clone the repository:
     git clone https://github.com/your-repo/campaign-dashboard.git
     cd campaign-dashboard
 
-    Install dependencies:
+   2- Install dependencies:
     npm install
 
-    Running the Application
+   3- Running the Application:
 
-    Start the development server:
+    1- Start the development server:
     npm run serve
+
+    2-Open your browser and go to http://localhost:8080.
 
