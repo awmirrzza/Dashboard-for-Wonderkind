@@ -1,66 +1,20 @@
-Welcome to the Wonderkind Dashboard Project!
+Campaign Performance Dashboard
 
-Follow these steps to explore and run the project:
-Step 1: Clone the Repository
+This project is a Vue 3 app using TypeScript. It shows a dashboard for job vacancy marketing campaigns, focusing on metrics like impressions, clicks, applications, and costs.
+Features
 
-Download the project to your computer:
+    Campaign Selector: Dropdown menu to choose a job vacancy.
+    Metrics Display: Shows metrics for the selected job vacancy.
 
-bash
+Project Structure
 
-git clone https://github.com/awmirrzza/DashboardforWonderkind.git
+    App.vue: Main component that sets up the layout.
+    components/CampaignSelect.vue: Dropdown component to select a campaign.
+    components/MetricsDisplay.vue: Displays metrics for the selected campaign.
+    store/index.ts: Vuex store setup.
 
-Step 2: Open the Project
+Getting Started
+Prerequisites
 
-Go to the project folder:
-
-bash
-
-cd DashboardforWonderkind
-
-Step 3: Install Dependencies
-
-Make sure you have Node.js installed. Then, install the required packages:
-
-bash
-
-npm install
-
-Step 4: Run the Project
-
-Start the project locally:
-
-bash
-
-npm run dev
-
-Open your browser and go to http://localhost:3000 to see the app.
-Step 5: Explore the Code
-
-Here's a quick overview of the main folders:
-
-    src/: Contains all the code.
-        components/: Reusable parts of the app.
-        pages/: Different pages of the app.
-        assets/: Images and styles.
-        App.tsx: Main app file.
-        index.tsx: Entry point of the app.
-
-    public/: Contains public files.
-        index.html: Main HTML file.
-
-Step 6: Make Changes
-
-Feel free to edit the code. Add new components in src/components/, create new pages in src/pages/, and update styles in src/assets/.
-Step 7: Save and Share Changes
-
-After making changes, save and upload them:
-
-bash
-
-git add .
-git commit -m "Describe your changes"
-git push
-
-Need Help?
-
-If you have questions, just ask!
+    Node.js and npm
+    Vue CLI
